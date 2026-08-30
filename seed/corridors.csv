@@ -1,0 +1,5 @@
+id,code,name,traffic_weight
+1,NDLS-CNB-UP,New Delhi - Kanpur Main Corridor,1.5
+2,NDLS-AGC-UP,New Delhi - Agra Corridor,1.3
+3,CSMT-PUNE-MH,CSMT - Pune Corridor,1.2
+4,HOWRAH-ASN-WB,Howrah - Asansol Corridor,1.4

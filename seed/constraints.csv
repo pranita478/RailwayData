@@ -1,0 +1,11 @@
+id,constraint_code,constraint_name,description,constraint_type,is_hard_constraint,penalty_weight
+1,NO_TRAIN_CONFLICT,No Train Conflict,A maintenance block must not overlap with scheduled train movement on the affected section,SAFETY,TRUE,1000
+2,WINDOW_FIT,Maintenance Must Fit Window,A maintenance task must fit continuously inside the selected block window,TIME,TRUE,1000
+3,SECTION_MATCH,Section Must Match,Maintenance must be scheduled only on a block window belonging to the same section as the affected asset,LOCATION,TRUE,1000
+4,RESOURCE_AVAILABILITY,Resource Availability,A required maintenance resource must be available for the assigned task during its scheduled period,RESOURCE,TRUE,900
+5,COMPATIBILITY,Task Compatibility,Only tasks explicitly compatible may be combined into an integrated maintenance block,INTEGRATION,TRUE,900
+6,SAFETY_PRIORITY,Safety Criticality Priority,High-criticality safety work should receive priority when competing for the same feasible maintenance opportunity,PRIORITY,FALSE,800
+7,REQUESTED_WINDOW,Requested Time Preference,The optimizer should prefer scheduling within the task requested time range when feasible,PRIORITY,FALSE,300
+8,MINIMIZE_DOWNTIME,Minimize Corridor Downtime,The optimizer should minimize total infrastructure blockage and unnecessary corridor downtime,OBJECTIVE,FALSE,500
+9,MAXIMIZE_INTEGRATION,Maximize Integrated Blocks,The optimizer should prefer safely combining compatible maintenance activities into a shared block,OBJECTIVE,FALSE,400
+10,UNSCHEDULED_ALLOWED,Allow Unscheduled Tasks,If no feasible block exists the task may remain unscheduled with an explicit reason,FEASIBILITY,TRUE,1000

@@ -1,0 +1,9 @@
+id,department_id,resource_name,resource_type,capacity,availability_status
+RES-TRK-001,1,Track Maintenance Team A,Track Crew,1,Available
+RES-TRK-002,1,Track Maintenance Team B,Track Crew,1,Available
+RES-TRK-003,1,Track Renewal Team,Heavy Track Crew,1,Available
+RES-SNT-001,2,Signal Maintenance Team A,Signal Crew,1,Available
+RES-SNT-002,2,Signal Testing Team,Signal Testing Crew,1,Available
+RES-OHE-001,3,OHE Maintenance Team A,OHE Crew,1,Available
+RES-OHE-002,3,OHE Maintenance Team B,OHE Crew,1,Available
+RES-OHE-003,3,OHE Inspection Team,OHE Inspection Crew,1,Available

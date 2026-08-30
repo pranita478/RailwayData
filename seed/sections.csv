@@ -1,0 +1,12 @@
+id,corridor_id,code,from_station,to_station,length_km,line_type,electrified
+1,1,SEC001,New Delhi,Ghaziabad,20.0,Main,TRUE
+2,1,SEC002,Ghaziabad,Aligarh,110.0,Main,TRUE
+3,1,SEC003,Aligarh,Tundla,85.0,Main,TRUE
+4,1,SEC004,Tundla,Kanpur,230.0,Main,TRUE
+5,2,SEC005,New Delhi,Palwal,55.0,Main,TRUE
+6,2,SEC006,Palwal,Mathura,80.0,Main,TRUE
+7,2,SEC007,Mathura,Agra,55.0,Main,TRUE
+8,3,SEC008,CSMT,Lonavala,120.0,Main,TRUE
+9,3,SEC009,Lonavala,Pune,65.0,Main,TRUE
+10,4,SEC010,Howrah,Barddhaman,105.0,Main,TRUE
+11,4,SEC011,Barddhaman,Asansol,170.0,Main,TRUE

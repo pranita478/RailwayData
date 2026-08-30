@@ -1,0 +1,31 @@
+id,section_id,department_id,asset_type,asset_name,asset_criticality,status
+TRK-ASSET-001,1,1,Rail,Welded Rail Joint SEC001,5,Operational
+TRK-ASSET-002,2,1,Rail,Main Line Rail SEC002,5,Operational
+TRK-ASSET-003,3,1,Track,Track Geometry SEC003,4,Operational
+TRK-ASSET-004,4,1,Track,Main Line Track SEC004,4,Operational
+TRK-ASSET-005,5,1,Point Machine,Turnout SEC005,4,Operational
+SNT-ASSET-001,1,2,Signal,Home Signal SEC001,4,Operational
+SNT-ASSET-002,2,2,Signal,Automatic Signal SEC002,3,Operational
+SNT-ASSET-003,3,2,Track Circuit,Track Circuit SEC003,4,Operational
+SNT-ASSET-004,4,2,Signal,Block Signal SEC004,4,Operational
+OHE-ASSET-001,1,3,OHE,Overhead Equipment SEC001,5,Operational
+OHE-ASSET-002,2,3,OHE,Overhead Equipment SEC002,4,Operational
+OHE-ASSET-003,3,3,OHE,Overhead Equipment SEC003,4,Operational
+OHE-ASSET-004,4,3,OHE,Overhead Equipment SEC004,4,Operational
+OHE-ASSET-005,5,3,OHE,Overhead Equipment SEC005,4,Operational
+SNT-ASSET-005,6,2,Signal,Automatic Signal SEC006,3,Operational
+SNT-ASSET-006,7,2,Signal,Home Signal SEC007,4,Operational
+OHE-ASSET-006,6,3,OHE,Overhead Equipment SEC006,4,Operational
+OHE-ASSET-007,7,3,OHE,Overhead Equipment SEC007,4,Operational
+TRK-ASSET-006,8,1,Track,Main Line Track SEC008,5,Operational
+TRK-ASSET-007,9,1,Track,Main Line Track SEC009,5,Operational
+SNT-ASSET-007,8,2,Signal,Station Signal SEC008,4,Operational
+SNT-ASSET-008,9,2,Signal,Station Signal SEC009,4,Operational
+OHE-ASSET-008,8,3,OHE,Overhead Equipment SEC008,5,Operational
+OHE-ASSET-009,9,3,OHE,Overhead Equipment SEC009,5,Operational
+TRK-ASSET-008,10,1,Track,Main Line Track SEC010,4,Operational
+TRK-ASSET-009,11,1,Track,Main Line Track SEC011,5,Operational
+SNT-ASSET-009,10,2,Signal,Block Signal SEC010,4,Operational
+SNT-ASSET-010,11,2,Signal,Block Signal SEC011,4,Operational
+OHE-ASSET-010,10,3,OHE,Overhead Equipment SEC010,5,Operational
+OHE-ASSET-011,11,3,OHE,Overhead Equipment SEC011,5,Operational

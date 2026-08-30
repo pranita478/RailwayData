@@ -1,0 +1,9 @@
+id,task_id_1,task_id_2,compatible,compatibility_reason
+1,TRK-1001,OHE-3005,TRUE,Track and OHE work can be coordinated on the same section during one protected block
+2,TRK-1001,SNT-2001,FALSE,Signal inspection requires separate operational conditions and is not part of the integrated demo block
+3,OHE-3005,SNT-2001,FALSE,Different work requirements prevent direct integration in the demo scenario
+4,TRK-1002,OHE-3002,TRUE,Track and OHE maintenance can be coordinated on the same protected section
+5,TRK-1003,OHE-3003,TRUE,Track and OHE inspection can share a coordinated maintenance block
+6,TRK-1004,OHE-3004,TRUE,Track and OHE maintenance can be coordinated subject to safety constraints
+7,TRK-1005,SNT-2004,FALSE,Tasks require separate specialized operational conditions
+8,OHE-3006,SNT-2004,FALSE,Different maintenance access requirements
